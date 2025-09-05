@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio: Transaction App UI/UX</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: rgba(247, 207, 206, 0.986); /*#f3f4f6;*/
+            color: #1f2937;
+        }
+        .portfolio-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        /* Style for the professional phone mockup */
+        .phone-mockup {
+            width: 250px;
+            height: 500px;
+            padding: 10px;
+            border-radius: 2.5rem; /* Rounded corners for the phone body */
+            background-color: #2c2c2e;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+            position: relative;
+            z-index: 10;
+        }
+        .phone-mockup-inner {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 2rem; /* Inner rounded screen */
+        }
+    </style>
+</head>
+<body class=" -gray-800">
+
+    <div class="portfolio-container">
+        <!-- Header Section -->
+        <header class="text-center py-12">
+            <h1 class="text-6xl font-extrabold text-red-600 mb-4 tracking-tight">Transaction App UI/UX</h1>
+            <p class="text-xl font-medium text-gray-700">A Case Study in Designing a Seamless Mobile Payment Experience</p>
+        </header>
+
+        <!-- Project Description Section -->
+        <main class="mt-12 bg-white rounded-xl p-8 md:p-12 shadow-2xl">
+            <div class="space-y-12">
+                <!-- Overview & Features -->
+                <div>
+                    <h2 class="text-4xl font-bold text-red-600 mb-4">Project Overview</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">This project is a UI/UX design case study for a simple mobile transaction application. The goal was to create a clean, intuitive, and fully responsive user interface for a common task: paying a utility bill. This portfolio piece demonstrates an understanding of user flow, modern design principles, and visual clarity.</p>
+
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-4">User Journey & Features</h3>
+                    <ul class="list-disc list-inside space-y-3 text-gray-600 leading-relaxed">
+                        <li><strong>Login Page:</strong> A minimalist login screen that serves as the entry point for the user.</li>
+                        <li><strong>Home Page:</strong> A clean dashboard providing a quick overview and a clear call-to-action for the payment task.</li>
+                        <li><strong>Payment Page:</strong> A dedicated screen for the transaction, designed to be simple and free of distractions.</li>
+                        <li><strong>Payment Success Screen:</strong> A final screen providing positive and immediate feedback to the user.</li>
+                    </ul>
+                </div>
+
+                <!-- Design Rationale -->
+                <div>
+                    <h2 class="text-4xl font-bold text-red-600 mb-4">Design Rationale</h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+                        <p>The design of this application is founded on key principles aimed at creating a fluid and user-centric experience. Each element was carefully considered to minimize friction and guide the user seamlessly through the payment process.</p>
+                        <h3 class="text-2xl font-semibold text-gray-700">1. Intuitive User Flow</h3>
+                        <p>The core flow—from login to payment to confirmation—is designed to be logical and predictable. This ensures users can complete their task without confusion or unnecessary steps, reducing cognitive load and saving time.</p>
+                        <h3 class="text-2xl font-semibold text-gray-700">2. Clean & Modern Aesthetics</h3>
+                        <p>A minimalist color palette, ample whitespace, and clean typography contribute to a modern, professional look. The use of clear icons and simple UI components keeps the interface clutter-free and visually appealing.</p>
+                        <h3 class="text-2xl font-semibold text-gray-700">3. Action-Oriented Visual Hierarchy</h3>
+                        <p>Key interactive elements, such as the "Pay" button and the back navigation, are strategically placed and styled to be immediately recognizable. This guides the user's eye and prioritizes primary actions on each screen.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Visual Design Gallery Section -->
+        <section class="mt-16 bg-white rounded-xl p-8 md:p-12 shadow-2xl">
+            <h2 class="text-4xl font-bold text-red-600 mb-8">Visual Design</h2>
+            <div class="flex overflow-x-auto gap-12 pb-4 px-4 -mx-4">
+                
+                <!-- Login Page Image with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">1. Login</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/login.png" alt="Login Page UI" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Home Page Image with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">2. Home</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/home.png" alt="Home Page UI" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pay Page Image with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">3. In Electricity</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/home2.png" alt="Pay Page UI" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Success Page Image with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">4. Pay</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/pay.png" alt="Success Page UI" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- New Image Slot 5 with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">5. Success</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/success.png" alt="Prototype" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Image Slot 6 with Phone Mockup -->
+                <div class="flex-none w-72 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">6. Exit Request</h3>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-inner">
+                            <!-- REPLACE THIS IMAGE URL WITH YOUR OWN -->
+                            <img src="Pay App/exit.png" alt="Final Flow" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-16 text-gray-500">
+            
+        </footer>
+    </div>
+
+</body>
+</html>
